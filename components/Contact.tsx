@@ -11,13 +11,13 @@ const contactItems = [
   },
   {
     label: "LINKEDIN",
-    value: "linkedin.com/in/pratikchavan",
-    href: "https://linkedin.com/in/pratikchavan",
+    value: "linkedin.com/in/pratik-chavan-910764211",
+    href: "https://www.linkedin.com/in/pratik-chavan-910764211/",
   },
   {
     label: "GITHUB",
-    value: "NA — will update soon",
-    href: "#",
+    value: "github.com/cpratik1307",
+    href: "https://github.com/cpratik1307",
   },
   {
     label: "LOCATION",
