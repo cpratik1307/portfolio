@@ -21,7 +21,7 @@ const projects: Project[] = [
   {
     category: "AGENTIC AI · FEATURED",
     featured: true,
-    isPublic: false,
+    isPublic: true,
     qualityTags: ["PRODUCTION-GRADE", "MULTI-AGENT", "SCALABLE"],
     name: "Multi-Agent RAG System with LangGraph",
     tech: [
@@ -38,7 +38,10 @@ const projects: Project[] = [
       "Architected a production-grade multi-agent system using LangGraph with a supervisor agent orchestrating specialized sub-agents: a retrieval agent (Pinecone hybrid search), a reasoning agent (GPT-4o), and a validation/grounding agent.",
     impact:
       "Implemented tool-calling interfaces with schema validation, retries, and fallback logic for safe and predictable agent behavior. Integrated LangSmith tracing for full observability; deployed behind FastAPI with Redis-based session memory enabling persistent multi-turn conversations. Containerized with Docker Compose and integrated GitHub Actions CI/CD pipeline.",
-    links: [{ label: "GitHub", href: "#", primary: true }],
+    links: [
+      { label: "Live Demo", href: "https://multi-agent-rag-by-pratik-chavan.streamlit.app/", primary: true },
+      { label: "GitHub", href: "https://github.com/cpratik1307/Multi-Agent-Rag", primary: false },
+    ],
     period: "Apr 2025 – Jun 2025",
   },
   {
