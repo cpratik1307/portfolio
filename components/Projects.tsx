@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     category: "RAG SYSTEMS · FEATURED",
     featured: true,
-    isPublic: false,
+    isPublic: true,
     qualityTags: ["MEASURABLE", "PRODUCTION-GRADE", "OUTCOME-DRIVEN"],
     name: "RAG-Powered Document Intelligence Chatbot",
     tech: [
@@ -63,7 +63,7 @@ const projects: Project[] = [
       "Built a production-grade RAG chatbot using LangChain and ChromaDB for semantic Q&A over enterprise document repositories with GPT-4o as the reasoning backbone and custom prompt templates.",
     impact:
       "Achieved <2s average response time on a 10K-document corpus; deployed as a Dockerized FastAPI service with Redis caching layer reducing redundant LLM API calls by 40%. Implemented structured output parsing and conversation memory for a seamless, context-aware chat experience.",
-    links: [{ label: "GitHub", href: "#", primary: true }],
+    links: [{ label: "GitHub", href: "https://github.com/cpratik1307/Enterprise-Doc-RAG", primary: true }],
     period: "Mar 2025 – May 2025",
   },
   {
