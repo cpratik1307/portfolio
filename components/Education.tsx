@@ -46,6 +46,29 @@ export default function Education() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12">
+          <p className="text-[#c9a04c] text-xs font-semibold tracking-widest uppercase mb-4">
+            CERTIFICATIONS
+          </p>
+          <div className="bg-[#1a1a1a] border border-[#2a2a2a] rounded-2xl p-8">
+            <h3 className="text-white text-xl font-bold mb-2">
+              Microsoft Certified: Azure AI Engineer Associate
+            </h3>
+            <p className="text-gray-300 text-sm mb-3">Exam: AI-102</p>
+            <p className="text-[#c9a04c] text-xs font-semibold tracking-widest uppercase mb-4">
+              Issued by Microsoft Corporation · Global Certification
+            </p>
+            <a
+              href="https://learn.microsoft.com/en-us/users/PratikChavan-2331/credentials/C893C74AF95F0936"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-[#c9a04c] text-sm font-medium border border-[#c9a04c] px-4 py-1.5 rounded-full hover:bg-[#c9a04c] hover:text-black transition-colors"
+            >
+              Verify Credential
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
